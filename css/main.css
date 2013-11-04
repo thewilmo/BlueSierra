@@ -14,7 +14,11 @@
 @font-face {
   font-family: 'Antonio-Bold';
   src: url('../fonts/Antonio-Bold.ttf') format('truetype');
-}   
+}  
+@font-face {
+	font-family: 'Museo-Slab';
+	src: url('../fonts/Museo-Slab.ttf') format('truetype');
+}
    
 html,
 body {
@@ -43,6 +47,10 @@ body {
   background-color: #f5f5f5;
 }
 
+p {
+	font-family: "Museo-Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .navbar-inverse {
 	background-color: #423a2c;
 	border-color: #26231d;
@@ -55,7 +63,7 @@ body {
 	text-shadow: 1px 1px #fff, 2px 2px #fff;
 }
 
-.featurette-heading {
+h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	letter-spacing: -.03em;
 	font-family: "Antonio-Bold", sans-serif;
